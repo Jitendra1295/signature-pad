@@ -2,37 +2,104 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.signature-container {
   display: flex;
   flex-direction: column;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  height: 100vh;
+}
+
+.options {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.option {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.signature-pad {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Center horizontally */
+  flex-direction: column;
+  margin: auto;
+  /* Add margin auto to center vertically */
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Media queries for responsive design */
+
+@media screen and (min-width: 768px) {
+  .options {
+    flex-direction: row;
   }
-  to {
-    transform: rotate(360deg);
+
+  .option {
+    width: auto;
+    margin-right: 10px;
   }
+
+  .signature-pad {
+    padding: 20px;
+  }
+}
+
+.signature-canvas {
+  border: 1px solid black;
+  /* Add border style */
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  /* Blue background for primary button */
+  color: #fff;
+  /* White text color */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  /* Darker blue on hover */
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  /* Red background for danger button */
+  color: #fff;
+  /* White text color */
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  /* Darker red on hover */
 }
