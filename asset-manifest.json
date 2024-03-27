@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/signature-pad/static/css/main.939e6ee1.css",
+    "main.js": "/signature-pad/static/js/main.e1648420.js",
+    "static/js/453.f131452b.chunk.js": "/signature-pad/static/js/453.f131452b.chunk.js",
+    "index.html": "/signature-pad/index.html",
+    "main.939e6ee1.css.map": "/signature-pad/static/css/main.939e6ee1.css.map",
+    "main.e1648420.js.map": "/signature-pad/static/js/main.e1648420.js.map",
+    "453.f131452b.chunk.js.map": "/signature-pad/static/js/453.f131452b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.939e6ee1.css",
+    "static/js/main.e1648420.js"
+  ]
+}
